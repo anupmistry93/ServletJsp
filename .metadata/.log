@@ -7982,3 +7982,6 @@ java.lang.Exception: The resource tree is locked for modifications.
 
 !ENTRY org.eclipse.jface.text 2 0 2019-05-13 00:29:50.227
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-05-13 01:08:10.481
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

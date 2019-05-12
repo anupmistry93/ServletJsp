@@ -23,7 +23,10 @@ public class Servlet2 extends HttpServlet {
 		 k=k*k;
        
 		PrintWriter out =  res.getWriter();
+		
+		out.println("<html><body bgcolor= 'cyan'>");
 		out.println( "squared number  is: "+ k);
+		out.println( "</html></body>");
 		
 	
 		
