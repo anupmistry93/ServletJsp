@@ -1,0 +1,37 @@
+package com.cookies;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+
+public class Servlet2 extends HttpServlet {
+	
+	
+public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException{
+		
+		
+		int num=0;
+		Cookie cookies[] = req.getCookies();
+		
+		for(Cookie c: cookies)
+		{
+			if(c.getName().equals("k"));
+			num = Integer.parseInt(c.getValue());
+			
+		}
+		
+         num= num*num ;
+        
+		PrintWriter out =  res.getWriter();
+		out.println( "square value is =  "+ num);
+		
+	}
+
+
+}

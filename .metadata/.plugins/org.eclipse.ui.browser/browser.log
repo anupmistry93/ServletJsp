@@ -1,0 +1,6 @@
+
+May 11, 2019 23:42:48.58 NEW SESSION
+May 11, 2019 23:42:48.58 [31476:26944:0511/234248.578:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+May 11, 2019 23:42:48.68 [31476:31256:0511/234248.686:ERROR:browser_process_sub_thread.cc(217)] Waited 31 ms for network service
+May 11, 2019 23:43:36.95 [28588:8472:0511/234336.953:ERROR:http_bridge.cc(127)] NOT IMPLEMENTED
+May 11, 2019 23:43:37.03 [28588:31456:0511/234337.038:ERROR:browser_process_sub_thread.cc(217)] Waited 30 ms for network service

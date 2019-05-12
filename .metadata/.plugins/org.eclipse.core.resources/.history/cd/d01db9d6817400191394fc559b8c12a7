@@ -1,0 +1,29 @@
+package com.webApp1;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Servlet1 extends HttpServlet {
+	
+	//SendRedirect
+	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException
+	{
+		
+		int i = Integer.parseInt(req.getParameter("num1"));
+		int j = Integer.parseInt(req.getParameter("num2"));
+		
+		int k = i + j;
+		
+	   // res.sendRedirect("square");
+	    
+	    res.sendRedirect("square?value="+k);
+	    
+
+		
+	}
+
+}

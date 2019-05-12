@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+
+<!-- .............url redirect..........   -->
+<servlet>
+  <servlet-name>play1</servlet-name>
+  <servlet-class>com.urlRedirect1.Servlet1</servlet-class>
+</servlet>
+
+
+ <servlet-mapping>
+  <servlet-name>play1</servlet-name>
+  <url-pattern>/addition</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+  <servlet-name>play2</servlet-name>
+  <servlet-class>com.urlRedirect1.Servlet2</servlet-class>
+</servlet>
+
+
+ <servlet-mapping>
+  <servlet-name>play2</servlet-name>
+  <url-pattern>/square</url-pattern>
+</servlet-mapping>
+
+<!-- .............session...........   -->
+<servlet>
+  <servlet-name>play3</servlet-name>
+  <servlet-class>com.session.Servlet1</servlet-class>
+</servlet>
+
+
+ <servlet-mapping>
+  <servlet-name>play3</servlet-name>
+  <url-pattern>/addition1</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+  <servlet-name>play4</servlet-name>
+  <servlet-class>com.session.Servlet2</servlet-class>
+</servlet>
+
+
+ <servlet-mapping>
+  <servlet-name>play4</servlet-name>
+  <url-pattern>/square1</url-pattern>
+</servlet-mapping>
+<!-- .............cookies...........   -->
+
+<servlet>
+  <servlet-name>play5</servlet-name>
+  <servlet-class>com.cookies.Servlet1</servlet-class>
+</servlet>
+
+
+ <servlet-mapping>
+  <servlet-name>play5</servlet-name>
+  <url-pattern>/addition2</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+  <servlet-name>play6</servlet-name>
+  <servlet-class>com.cookies.Servlet2</servlet-class>
+  
+  <!-- .............SERVLET config.......................   -->
+ <init-param>  
+<param-name>name</param-name>  
+<param-value>Raju</param-value>  
+</init-param>
+  
+</servlet>
+
+
+ <servlet-mapping>
+  <servlet-name>play6</servlet-name>
+  <url-pattern>/square2</url-pattern>
+  
+</servlet-mapping>
+
+<!-- .............SERVLET CONTEXT........................   -->
+
+<context-param>
+    <param-name>name</param-name>
+    <param-value>Anup</param-value>
+</context-param>
+
+<context-param>
+    <param-name>company</param-name>
+    <param-value>Infosys</param-value>
+</context-param>
+
+
+</web-app>

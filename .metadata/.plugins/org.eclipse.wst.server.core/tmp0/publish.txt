@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun May 12 22:34:55 IST 2019
+org.eclipse.jst.jee.server\:Demo=E\:\\apachetomcat\\apache-tomcat-9.0.17\\wtpwebapps\\Demo
+org.eclipse.jst.jee.server\:Demo1=E\:\\apachetomcat\\apache-tomcat-9.0.17\\wtpwebapps\\Demo1
