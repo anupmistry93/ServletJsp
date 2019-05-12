@@ -12,7 +12,7 @@ public class Servlet1 extends HttpServlet {
 	
 	
 	
-	//SendRedirect //session 
+	//SendRedirect //session /
 		public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException
 		{
 			
